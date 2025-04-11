@@ -13,8 +13,12 @@ return new class extends Migration
     {
         Schema::create('adms', function (Blueprint $table) {
             $table->id('id');
-
-            $table->textlong('situacao');
+            $table->longtext('nome');
+            $table->longtext('sobrenome');
+            $table->longtext('email')->unique();
+            $table->longtext('senha');
+            $table->integer('idade');
+            $table->longtext('situacao');
             $table->timestamps();
         });
     }

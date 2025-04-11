@@ -1,4 +1,4 @@
-<x-layout titulo="home">    
+<x-layout titulo="homeAdm">    
   <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #DA3E41; padding-top: 20px; padding-bottom: 20px;">
     <div class="container-fluid d-flex justify-content-between align-items-center">
 
@@ -15,27 +15,21 @@
                style="border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Home</a>
           </li>
           <li class="nav-item">
-            <a href="/sobrenos" class="btn btn-danger"
+            <a href="/sobre" class="btn btn-danger"
                style="border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Sobre</a>
           </li>
           <li class="nav-item">
-            <a href="/loginUsuario" class="btn btn-danger"
+            <a href="/atividade" class="btn btn-danger"
                style="border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Atividade</a>
           </li>
           <li class="nav-item">
-            <a href="/loginUsuario" class="btn btn-danger"
+            <a href="/relatorio" class="btn btn-danger"
                style="border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Relatório</a>
           </li>
         </ul>
       </div>
 
-      <!-- BOTÕES DIREITA (USUÁRIO E ADM COM LINKS) -->
-      <form class="d-flex" role="search">
-  <a href="loginUsuario" class="btn"
-     style="background-color: white; border: 0px solid black; border-radius: 30px; padding: 6px 17px; font-size: 19px; width: 100px; text-align: center; color: #DA3E41;">Login</a>
-  <a href="loginAdm" class="btn ms-2"
-     style="background-color: white; border: 0px solid black; border-radius: 30px; padding: 6px 18px; font-size: 20px; width: 100px; text-align: center; color: #DA3E41;">Adm</a>
-</form>
+     
     </div>
   </nav>
 

@@ -15,11 +15,12 @@ return new class extends Migration
             $table->id('id');
             $table->longtext('nome');
             $table->longtext('sobrenome');
-            $table->longtext('email');
+            $table->longtext('email')->unique();
             $table->longtext('senha');
             $table->integer('idade');
             $table->longtext('escola');
             $table->longtext('serie');
+            $table->longtext('perfil');
             $table->longtext('situacao');
             $table->timestamps();
         });
