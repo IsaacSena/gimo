@@ -29,8 +29,29 @@ Route::get('homeUsuario', function () {
     return view('paginas.homeUsuario');
 });
 
+Route::get('perfilUsuario', function () {
+    return view('paginas.perfilUsuario');
+});
 
+Route::get('esqueceuSenhaUsuario', function () {
+    return view('paginas.esqueceuSenhaUsuario');
+});
 
+Route::get('alterarSenhaUsuario', function () {
+    return view('paginas.alterarSenhaUsuario');
+});
+
+Route::get('sobrenosUsuario', function () {
+    return view('paginas.sobrenosUsuario');
+});
+
+Route::get('atividadesUsuario', function () {
+    return view('paginas.atividadesUsuario');
+});
+
+Route::get('relatorioUsuario', function () {
+    return view('paginas.relatorioUsuario');
+});
 
 
 
@@ -52,4 +73,12 @@ Route::get('cadastroAdm', function () {
 
 Route::get('sobrenosAdm', function () {
     return view('paginas.sobrenosAdm');
+});
+
+Route::get('esqueceuSenhaAdm', function () {
+    return view('paginas.esqueceuSenhaAdm');
+});
+
+Route::get('alterarSenhaAdm', function () {
+    return view('paginas.alterarSenhaAdm');
 });

@@ -1,4 +1,4 @@
-<x-layout titulo="Home Usuário">    
+<x-layout titulo="Atividades Usuário">    
   <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #DA3E41; padding-top: 20px; padding-bottom: 20px;">
     <div class="container-fluid d-flex justify-content-between align-items-center">
 
@@ -17,10 +17,10 @@
             <a href="sobrenosUsuario" class="btn btn-danger" style="border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Sobre</a>
           </li>
           <li class="nav-item">
-            <a href="/atividadesUsuario" class="btn btn-danger" style="border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Atividades</a>
+            <a href="atividadesUsuario" class="btn btn-danger" style="border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Atividades</a>
           </li>
           <li class="nav-item">
-            <a href="/relatorioUsuario" class="btn btn-danger" style="border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Relatório</a>
+            <a href="relatorioUsuario" class="btn btn-danger" style="border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Relatório</a>
           </li>
         </ul>
       </div>
@@ -51,25 +51,29 @@
   </nav>
 
   <!-- Seção de Conteúdo -->
-  <section class="py-5" style="padding-top: 80px;">
-    <div class="container">
-      <div class="row align-items-center">
+    <section class="py-5" style="padding-top: 80px; text-align: center;">
+        <div class="container" style="margin: auto;">
+            <div class="row align-items-center">
 
-        <!-- Texto à esquerda -->
-        <div class="col-md-6">
-          <h2 class="mb-4">Título da Seção</h2>
-          <p>Este é um exemplo de seção com texto do lado esquerdo e uma imagem do lado direito. Você pode usar essa estrutura para descrever seu projeto, equipe ou qualquer outro conteúdo relevante.</p>
-          <p>Adicione quantos parágrafos quiser, ou até botões se preferir. É totalmente personalizável.</p>
+                <div class="card" style="width: 18rem; margin-left: 20%; height: 40vh;">
+                    <div class="card-body">
+                        <h5 class="card-title">Letras</h5>
+                        
+                    </div>
+                    <img src="..." class="card-img-top" alt="...">
+                </div>
+                
+                <div class="card" style="width: 18rem; margin-left: 10%; height: 40vh;">
+                    <div class="card-body">
+                        <h5 class="card-title">Números</h5>
+                        
+                    </div>
+                    <img src="..." class="card-img-top" alt="...">
+                </div>
+
+            </div>
         </div>
-
-        <!-- Imagem à direita -->
-        <div class="col-md-6 text-center">
-          <img src="https://via.placeholder.com/500x300" alt="Imagem ilustrativa" class="img-fluid rounded">
-        </div>
-
-      </div>
-    </div>
-  </section>
+    </section>
 
   <!-- Footer -->
   <footer class="text-muted" style="background-color: #D3D3D3; width: 100%; padding-top: 20px; padding-bottom: 20px;">
