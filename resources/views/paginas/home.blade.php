@@ -1,4 +1,4 @@
-<x-layout titulo="home">    
+<x-layout titulo="Home">    
   <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #DA3E41; padding-top: 20px; padding-bottom: 20px;">
     <div class="container-fluid d-flex justify-content-between align-items-center">
 
@@ -20,7 +20,7 @@
           </li>
           <li class="nav-item">
             <a href="/loginUsuario" class="btn btn-danger"
-               style="border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Atividades</a>
+               style="border: 2px solid black; border-radius: 30px; padding: 12px 10px; font-size: 18px; width: 120px; text-align: center;">Atividades</a>
           </li>
           <li class="nav-item">
             <a href="/loginUsuario" class="btn btn-danger"
@@ -94,24 +94,24 @@
           </div>
         </div>
 
-        <!-- Redes Sociais / Link da equipe -->
-        <div class="col-12 col-md-4 mb-4">
-          <h6 class="text-uppercase fw-bold mb-3">Linkedin</h6>
-          <div class="flex-column align-items-start text-center">
-            <a href="https://www.linkedin.com/in/nome-do-perfil" target="_blank" class="d-block text-decoration-none text-primary mb-2">
-              <i class="fab fa-linkedin me-2"></i>https://www.bing.com/searchsdasadadadsa
-            </a>
-            <a href="https://www.linkedin.com/in/nome-do-perfil" target="_blank" class="d-block text-decoration-none text-primary mb-2">
-              <i class="fab fa-linkedin me-2"></i>https://www.bing.com/searchsdasdaasdadas
-            </a>
-            <a href="https://www.linkedin.com/in/nome-do-perfil" target="_blank" class="d-block text-decoration-none text-primary mb-2">
-              <i class="fab fa-linkedin me-2"></i>https://www.bing.com/searchasdadsadsdasd
-            </a>
-            <a href="https://www.linkedin.com/in/nome-do-perfil" target="_blank" class="d-block text-decoration-none text-primary mb-2">
-              <i class="fab fa-linkedin me-2"></i>https://www.bing.com/searchasdadasdsadad
-            </a>
+        <!-- LinkedIn (corrigido) -->
+        <div class="col-12 col-md-4 mb-4" style="text-align: center;">
+            <h6 class="text-uppercase fw-bold mb-3">LinkedIn</h6>
+            <div class="d-flex flex-column align-items-center">
+              <a href="https://www.linkedin.com/in/giseledahora" target="_blank" class="text-decoration-none text-primary mb-2">
+                <i class="fab fa-linkedin me-2"></i>Gisele da Hora
+              </a>
+              <a href="https://www.linkedin.com/in/isaacsena" target="_blank" class="text-decoration-none text-primary mb-2">
+                <i class="fab fa-linkedin me-2"></i>Isaac Sena
+              </a>
+              <a href="https://www.linkedin.com/in/mateuspavani" target="_blank" class="text-decoration-none text-primary mb-2">
+                <i class="fab fa-linkedin me-2"></i>Mateus Pavani
+              </a>
+              <a href="https://www.linkedin.com/in/otaviofidalgo" target="_blank" class="text-decoration-none text-primary mb-2">
+                <i class="fab fa-linkedin me-2"></i>Otávio Fidalgo
+              </a>
+            </div>
           </div>
-        </div>
 
         <!-- Contato -->
         <div class="col-12 col-md-4 mb-4">

@@ -18,67 +18,93 @@ Route::get('sobrenos', function () {
 
 //Usuario
 Route::get('loginUsuario', function () {
-    return view('paginas.loginUsuario');
+    return view('paginas.usuarioLogin');
 });
 
 Route::get('cadastroUsuario', function () {
-    return view('paginas.cadastroUsuario');
+    return view('paginas.usuarioCadastro');
 });
 
 Route::get('homeUsuario', function () {
-    return view('paginas.homeUsuario');
+    return view('paginas.usuarioHome');
 });
 
 Route::get('perfilUsuario', function () {
-    return view('paginas.perfilUsuario');
+    return view('paginas.usuarioPerfil');
 });
 
 Route::get('esqueceuSenhaUsuario', function () {
-    return view('paginas.esqueceuSenhaUsuario');
+    return view('paginas.usuarioEsqueceuSenha');
 });
 
 Route::get('alterarSenhaUsuario', function () {
-    return view('paginas.alterarSenhaUsuario');
+    return view('paginas.usuarioAlterarSenha');
 });
 
 Route::get('sobrenosUsuario', function () {
-    return view('paginas.sobrenosUsuario');
+    return view('paginas.usuarioSobrenos');
 });
 
 Route::get('atividadesUsuario', function () {
-    return view('paginas.atividadesUsuario');
+    return view('paginas.usuarioAtividades');
 });
 
 Route::get('relatorioUsuario', function () {
-    return view('paginas.relatorioUsuario');
+    return view('paginas.usuarioRelatorio');
 });
 
+Route::get('usuarioEditarPerfil', function () {
+    return view('paginas.usuarioEditarPerfil');
+});
+
+Route::get('usuarioAlfabeto', function () {
+    return view('paginas.usuarioAlfabeto');
+});
+
+Route::get('usuarioNumeros', function () {
+    return view('paginas.usuarioNumeros');
+});
 
 
 
 
 //Adm
 Route::get('homeAdm', function () {
-    return view('paginas.homeAdm');
+    return view('paginas.admHome');
 });
 
 
 Route::get('loginAdm', function () {
-    return view('paginas.loginAdm');
+    return view('paginas.admLogin');
 });
 
 Route::get('cadastroAdm', function () {
-    return view('paginas.cadastroAdm');
+    return view('paginas.admCadastro');
 });
 
 Route::get('sobrenosAdm', function () {
-    return view('paginas.sobrenosAdm');
+    return view('paginas.admSobrenos');
 });
 
 Route::get('esqueceuSenhaAdm', function () {
-    return view('paginas.esqueceuSenhaAdm');
+    return view('paginas.admEsqueceuSenha');
 });
 
 Route::get('alterarSenhaAdm', function () {
-    return view('paginas.alterarSenhaAdm');
+    return view('paginas.admAlterarSenha');
+});
+
+Route::get('perfilAdm', function () {
+    return view('paginas.admPerfil');
+});
+
+Route::get('admEditarPerfil', function () {
+    return view('paginas.admEditarPerfil');
+});
+
+
+//Letras
+
+Route::get('letraA', function () {
+    return view('paginas/Letras.letraA');
 });
