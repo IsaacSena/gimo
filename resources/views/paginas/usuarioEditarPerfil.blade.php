@@ -3,7 +3,7 @@
     <div class="container-fluid d-flex justify-content-between align-items-center">
 
       <!-- LOGO (Imagem responsiva) -->
-      <a class="navbar-brand" href="homeUsuario">
+      <a class="navbar-brand" href="usuarioHome">
         <img src="{{URL::to('/assets/img/logo_gimo.png')}}" alt="Logo" style="width: 100px; height: auto;">
       </a>
 
@@ -11,19 +11,19 @@
       <div class="d-flex justify-content-center flex-grow-1" style="padding-top:35px;">
         <ul class="navbar-nav d-flex flex-row gap-3">
           <li class="nav-item">
-            <a href="homeUsuario" class="btn btn-danger"
+            <a href="usuarioHome" class="btn btn-danger"
                style="border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Home</a>
           </li>
           <li class="nav-item">
-            <a href="/sobrenosUsuario" class="btn btn-danger"
+            <a href="/usuarioSobrenos" class="btn btn-danger"
                style="border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Sobre</a>
           </li>
           <li class="nav-item">
-            <a href="/atividadesUsuario" class="btn btn-danger"
+            <a href="/usuarioAtividades" class="btn btn-danger"
                style="border: 2px solid black; border-radius: 30px; padding: 12px 10px; font-size: 18px; width: 120px; text-align: center;">Atividades</a>
           </li>
           <li class="nav-item">
-            <a href="/relatorioUsuario" class="btn btn-danger"
+            <a href="/usuarioRelatorio" class="btn btn-danger"
                style="border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Relatório</a>
           </li>
         </ul>

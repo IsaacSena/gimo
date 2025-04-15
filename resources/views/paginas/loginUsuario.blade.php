@@ -1,6 +1,6 @@
 <x-layout titulo="Login de Usuário">    
 
-<nav class="navbar navbar-expand-lg" style="background-color: #f5e177; padding-top: 20px; padding-bottom: 20px;">
+<nav class="navbar navbar-expand-lg" style="background-color: #E5CD59; padding-top: 20px; padding-bottom: 20px;">
     <div class="container-fluid d-flex justify-content-between align-items-center">
 
         <!-- LOGO (Imagem responsiva) -->
@@ -21,7 +21,7 @@
 <h2 class="card-title" style="text-align: center;">Login de Usuário</h2>
 <br>
 
-<div class="card" style="width:50%; border-color: #f5e177; border-width: 2px; margin: auto; border-radius: 30px; text-align: center;">
+<div class="card" style="width:50%; border-color: #E5CD59; border-width: 2px; margin: auto; border-radius: 30px; text-align: center;">
 
     <div class="card-body">
         <!-- Formulário de Login -->
@@ -43,12 +43,12 @@
                 <input type="password" class="form-control" id="senha" name="senha" placeholder="Senha" required style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;">
                 <label for="senha">Senha</label>
             </div>
-            <a href="" style="float: right; color: ##f5e177;">Esqueci a Senha</a>
+            <a href="" style="float: right; color: #E5CD59;">Esqueci a Senha</a>
             <br>
 
             <!-- Botão Entrar -->
             <div>
-                <button type="submit" class="btn btn-primary" style="background-color: white; color: #f5e177; border-color: #000000; border-radius: 30px; border-width: 2px; font-weight: bold; font-size: 18px; margin: auto; width: 15%;">Entrar</button>
+                <button type="submit" class="btn btn-primary" style="background-color: white; color: #E5CD59; border-color: #000000; border-radius: 30px; border-width: 2px; font-weight: bold; font-size: 18px; margin: auto; width: 15%;">Entrar</button>
             </div>
         </form>
 
@@ -72,23 +72,23 @@
                 </div>
             </div>
 
-            <!-- LinkedIn (corrigido) -->
-            <div class="col-12 col-md-4 mb-4" style="text-align: center;">
-            <h6 class="text-uppercase fw-bold mb-3">LinkedIn</h6>
-            <div class="d-flex flex-column align-items-center">
-                <a href="https://www.linkedin.com/in/giseledahora" target="_blank" class="text-decoration-none text-primary mb-2">
-                <i class="fab fa-linkedin me-2"></i>Gisele da Hora
-                </a>
-                <a href="https://www.linkedin.com/in/isaacsena" target="_blank" class="text-decoration-none text-primary mb-2">
-                <i class="fab fa-linkedin me-2"></i>Isaac Sena
-                </a>
-                <a href="https://www.linkedin.com/in/mateuspavani" target="_blank" class="text-decoration-none text-primary mb-2">
-                <i class="fab fa-linkedin me-2"></i>Mateus Pavani
-                </a>
-                <a href="https://www.linkedin.com/in/otaviofidalgo" target="_blank" class="text-decoration-none text-primary mb-2">
-                <i class="fab fa-linkedin me-2"></i>Otávio Fidalgo
-                </a>
-            </div>
+            <!-- Redes Sociais / Link da equipe -->
+            <div class="col-12 col-md-4 mb-4">
+                <h6 class="text-uppercase fw-bold mb-3">Linkedin</h6>
+                <div class="flex-column align-items-start text-center">
+                    <a href="https://www.linkedin.com/in/nome-do-perfil" target="_blank" class="d-block text-decoration-none text-primary mb-2">
+                        <i class="fab fa-linkedin me-2"></i>https://www.bing.com/searchsdasadadadsa
+                    </a>
+                    <a href="https://www.linkedin.com/in/nome-do-perfil" target="_blank" class="d-block text-decoration-none text-primary mb-2">
+                        <i class="fab fa-linkedin me-2"></i>https://www.bing.com/searchsdasdaasdadas
+                    </a>
+                    <a href="https://www.linkedin.com/in/nome-do-perfil" target="_blank" class="d-block text-decoration-none text-primary mb-2">
+                        <i class="fab fa-linkedin me-2"></i>https://www.bing.com/searchasdadsadsdasd
+                    </a>
+                    <a href="https://www.linkedin.com/in/nome-do-perfil" target="_blank" class="d-block text-decoration-none text-primary mb-2">
+                        <i class="fab fa-linkedin me-2"></i>https://www.bing.com/searchasdadasdsadad
+                    </a>
+                </div>
             </div>
 
             <!-- Contato -->

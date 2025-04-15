@@ -1,6 +1,6 @@
 <x-layout titulo="Alterar Senha de Usuário">    
 
-  <nav class="navbar navbar-expand-lg" style="background-color: #f5e177; padding-top: 20px; padding-bottom: 20px;">
+  <nav class="navbar navbar-expand-lg" style="background-color: #E5CD59; padding-top: 20px; padding-bottom: 20px;">
     <div class="container-fluid d-flex justify-content-between align-items-center">
 
       <!-- LOGO (Imagem responsiva) -->
@@ -21,7 +21,7 @@
   <h2 class="card-title" style="text-align: center;">Alterar Senha</h2>
   <br>
 
-  <div class="card" style="width: 50%; border-color: #f5e177; border-width: 2px; margin: auto; border-radius: 30px; text-align: center;">
+  <div class="card" style="width: 50%; border-color: #E5CD59; border-width: 2px; margin: auto; border-radius: 30px; text-align: center;">
     <div class="card-body">
 
       <!-- Formulário de alteração de senha -->
@@ -36,7 +36,7 @@
 
         <!-- Botão Cadastrar -->
         <div>
-          <button type="submit" class="btn btn-primary" style="background-color: white; color: #f5e177; border-color: #000000; border-radius: 30px; border-width: 2px; font-weight: bold; font-size: 17px; margin: auto; width: 20%;">Cadastrar</button>
+          <button type="submit" class="btn btn-primary" style="background-color: white; color: #E5CD59; border-color: #000000; border-radius: 30px; border-width: 2px; font-weight: bold; font-size: 17px; margin: auto; width: 20%;">Cadastrar</button>
         </div>
         <br>
 

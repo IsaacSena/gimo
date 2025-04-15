@@ -69,7 +69,7 @@
             <div class="col-md-6">
               <h3 style="text-align: center;">Nome:</h3>
               <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu nome" Disabled required style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;">
+                <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu nome" required style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;">
                 <label for="nome">Nome</label>
               </div>
             </div>
@@ -78,7 +78,7 @@
             <div class="col-md-6">
               <h3 style="text-align: center;">Sobrenome:</h3>
               <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome" Disabled required style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;">
+                <input type="text" class="form-control" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome" required style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;">
                 <label for="sobrenome">Sobrenome</label>
               </div>
             </div>
@@ -87,7 +87,7 @@
             <div class="col-md-6">
               <h3 style="text-align: center;">E-mail:</h3>
               <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="email" name="email" placeholder="nome@exemplo.com" Disabled required style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;">
+                <input type="email" class="form-control" id="email" name="email" placeholder="nome@exemplo.com" required style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;">
                 <label for="email">E-mail</label>
               </div>
             </div>
@@ -96,7 +96,7 @@
             <div class="col-md-6">
               <h3 style="text-align: center;">Senha:</h3>
               <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="senha" name="senha" placeholder="Senha" Disabled required style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;">
+                <input type="text" class="form-control" id="senha" name="senha" placeholder="Senha" required style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;">
                 <label for="senha">Senha</label>
               </div>
             </div>
@@ -105,14 +105,36 @@
             <div class="col-md-6">
               <h3 style="text-align: center;">Idade:</h3>
               <div class="form-floating mb-3">
-                <input type="number" class="form-control" id="idade" name="idade" placeholder="Idade" Disabled required style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;">
+                <input type="number" class="form-control" id="idade" name="idade" placeholder="Idade" required style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;">
                 <label for="idade">Idade</label>
               </div>
             </div>
 
+            <!-- Input escola -->
+            <div class="col-md-6">
+              <h3 style="text-align: center;">Escola:</h3>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="escola" name="escola" placeholder="Nome da escola" required style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;">
+                <label for="escola">Escola</label>
+              </div>
+            </div>
+
+            <!-- Select série/ano -->
+            <div class="col-md-6">
+              <h3 style="text-align: center;">Série/Ano:</h3>
+              <select class="form-select mb-3" name="serie" required style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;">
+                <option selected>Escolha a Série</option>
+                <option value="1">1ª Série</option>
+                <option value="2">2ª Série</option>
+                <option value="3">3ª Série</option>
+                <option value="4">4ª Série</option>
+                <option value="5">5ª Série</option>
+              </select>
+            </div>
+
             <!-- Botão Editar -->
-            <div class="col-12 d-flex justify-content-center" style="transform: translate(300px, -72px);">
-  <button type="button" class="btn btn-danger" style="width: 15%; border-radius: 30px; font-size: 18px; padding: 12px 24px;">
+            <div class="col-12 d-flex justify-content-center" style="transform: translate(280px, -64px);">
+  <button type="button" class="btn btn-danger" style="width: 20%; border-radius: 30px; font-size: 18px; padding: 12px 24px;">
     Editar
   </button>
 </div>

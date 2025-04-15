@@ -19,11 +19,11 @@
                style="border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Sobre</a>
           </li>
           <li class="nav-item">
-            <a href="/loginUsuario" class="btn btn-danger"
+            <a href="/usuarioLogin" class="btn btn-danger"
                style="border: 2px solid black; border-radius: 30px; padding: 12px 10px; font-size: 18px; width: 120px; text-align: center;">Atividades</a>
           </li>
           <li class="nav-item">
-            <a href="/loginUsuario" class="btn btn-danger"
+            <a href="/usuarioLogin" class="btn btn-danger"
                style="border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Relatório</a>
           </li>
         </ul>
@@ -31,7 +31,7 @@
 
       <!-- BOTÕES DIREITA (USUÁRIO E ADM COM LINKS) -->
       <form class="d-flex" role="search">
-        <a href="loginUsuario" class="btn"
+        <a href="usuarioLogin" class="btn"
            style="background-color: white; border: 0px solid black; border-radius: 30px; padding: 6px 17px; font-size: 19px; width: 100px; text-align: center; color: #DA3E41;">Login</a>
         <a href="loginAdm" class="btn ms-2"
            style="background-color: white; border: 0px solid black; border-radius: 30px; padding: 6px 17px; font-size: 19px; width: 100px; text-align: center; color: #DA3E41;">Adm</a>

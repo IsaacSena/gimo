@@ -1,4 +1,4 @@
-<x-layout titulo="Letra A">    
+<x-layout titulo="Letra H">    
   <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #DA3E41; padding-top: 20px; padding-bottom: 20px;">
     <div class="container-fluid d-flex justify-content-between align-items-center">
 
@@ -65,19 +65,19 @@
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000">
-            <img src="{{URL::to('/assets/img/letraA.png')}}" class="d-block w-100" alt="...">
+            <img src="{{URL::to('/assets/img/letraH.png')}}" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item" data-bs-interval="2000">
-            <img src="{{URL::to('/assets/img/letraA_2.png')}}" class="d-block w-100" alt="...">
+            <img src="{{URL::to('/assets/img/letraH_2.png')}}" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="{{URL::to('/assets/img/letraA_3.png')}}" class="d-block w-100" alt="...">
+            <img src="{{URL::to('/assets/img/letraH_3.png')}}" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="{{URL::to('/assets/img/letraA_4.png')}}" class="d-block w-100" alt="...">
+            <img src="{{URL::to('/assets/img/letraH_4.png')}}" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="{{URL::to('/assets/img/letraA_5.png')}}" class="d-block w-100" alt="...">
+            <img src="{{URL::to('/assets/img/letraH_5.png')}}" class="d-block w-100" alt="...">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">

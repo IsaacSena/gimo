@@ -1,4 +1,4 @@
-<x-layout titulo="Letra A">    
+<x-layout titulo="Letra V">    
   <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #DA3E41; padding-top: 20px; padding-bottom: 20px;">
     <div class="container-fluid d-flex justify-content-between align-items-center">
 
@@ -61,23 +61,19 @@
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000">
-            <img src="{{URL::to('/assets/img/letraA.png')}}" class="d-block w-100" alt="...">
+            <img src="{{URL::to('/assets/img/letraV.png')}}" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item" data-bs-interval="2000">
-            <img src="{{URL::to('/assets/img/letraA_2.png')}}" class="d-block w-100" alt="...">
+            <img src="{{URL::to('/assets/img/letraV_2.png')}}" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="{{URL::to('/assets/img/letraA_3.png')}}" class="d-block w-100" alt="...">
+            <img src="{{URL::to('/assets/img/letraV_3.png')}}" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="{{URL::to('/assets/img/letraA_4.png')}}" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="{{URL::to('/assets/img/letraA_5.png')}}" class="d-block w-100" alt="...">
+            <img src="{{URL::to('/assets/img/letraV_4.png')}}" class="d-block w-100" alt="...">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
