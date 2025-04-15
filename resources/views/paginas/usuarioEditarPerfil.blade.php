@@ -1,5 +1,5 @@
 <x-layout titulo="Perfil de Usuário">    
-  <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #DA3E41; padding-top: 20px; padding-bottom: 20px;">
+  <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #E5CD59; padding-top: 20px; padding-bottom: 20px;">
     <div class="container-fluid d-flex justify-content-between align-items-center">
 
       <!-- LOGO (Imagem responsiva) -->
@@ -12,19 +12,19 @@
         <ul class="navbar-nav d-flex flex-row gap-3">
           <li class="nav-item">
             <a href="usuarioHome" class="btn btn-danger"
-               style="border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Home</a>
+               style="background-color: #E5CD59; border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Home</a>
           </li>
           <li class="nav-item">
             <a href="/usuarioSobrenos" class="btn btn-danger"
-               style="border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Sobre</a>
+               style="background-color: #E5CD59; border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Sobre</a>
           </li>
           <li class="nav-item">
             <a href="/usuarioAtividades" class="btn btn-danger"
-               style="border: 2px solid black; border-radius: 30px; padding: 12px 10px; font-size: 18px; width: 120px; text-align: center;">Atividades</a>
+               style="background-color: #E5CD59; border: 2px solid black; border-radius: 30px; padding: 12px 10px; font-size: 18px; width: 120px; text-align: center;">Atividades</a>
           </li>
           <li class="nav-item">
             <a href="/usuarioRelatorio" class="btn btn-danger"
-               style="border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Relatório</a>
+               style="background-color: #E5CD59; border: 2px solid black; border-radius: 30px; padding: 12px 24px; font-size: 18px; width: 120px; text-align: center;">Relatório</a>
           </li>
         </ul>
       </div>
@@ -61,7 +61,7 @@
 
       <!-- Bloco de Perfil  -->
       <h2 style="text-align: center;">Perfil de Usuário</h2>
-      <div class="card" style="width:100%; border-color: #DA3E41; border-width: 2px; margin: auto; border-radius: 30px; text-align: center;">
+      <div class="card" style="width:100%; border-color: #E5CD59; border-width: 2px; margin: auto; border-radius: 30px; text-align: center;">
         <div class="card-body">
           <div class="row">
 
@@ -134,8 +134,8 @@
 
             <!-- Botão Editar -->
             <div class="col-12 d-flex justify-content-center" style="transform: translate(319px, -72px);">
-  <button type="button" class="btn btn-danger" style="width: 20%; border-radius: 30px; font-size: 18px; padding: 12px 24px;">
-    Editar
+  <button type="button" class="btn btn-danger" style="background-color: #E5CD59; width: 20%; border-radius: 30px; border-color: #E5CD59; font-size: 18px; padding: 12px 24px;">
+    Confirmar
   </button>
 </div>
 

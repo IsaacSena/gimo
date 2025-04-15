@@ -5,7 +5,7 @@
   <div class="container-fluid d-flex justify-content-between align-items-center">
 
     <!-- LOGO (Imagem responsiva) -->
-    <a class="navbar-brand" href="/homeAdm">
+    <a class="navbar-brand" href="/admHome">
       <img src="{{ URL::to('/assets/img/logo_gimo.png') }}" alt="Logo" style="width: 100px; height: auto;">
     </a>
 
@@ -26,7 +26,7 @@
 <div class="card" style="width: 50%; border-color: #BDBDBD; border-width: 2px; margin: auto; border-radius: 30px; text-align: center;">
   <div class="card-body">
 
-    <form action="/loginAdm" method="GET"> {{-- Altere a rota se necessário --}}
+    <form action="/admLogin" method="GET"> {{-- Altere a rota se necessário --}}
     
       <!-- Input Nome -->  
       <h3 style="text-align: center;">Nome:</h3>
