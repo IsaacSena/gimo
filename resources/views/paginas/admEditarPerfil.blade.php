@@ -97,10 +97,10 @@
 
             <!-- Botão Editar -->
             <div class="col-12 d-flex justify-content-center" style="transform: translate(319px, -72px);">
-              <a href="admPerfil"><button type="button" class="btn btn-danger" style="width: 100%; border-radius: 30px; font-size: 18px; padding: 12px 24px;">
+              <a href="admPerfil"><button type="button"  style="width: 100%; border-radius: 30px; font-size: 18px; padding: 12px 24px;backgorund-color:black;">
                 Voltar
               </button></a>
-              <a href=""><button type="button" class="btn btn-danger" style="width: 100%; border-radius: 30px; font-size: 18px; padding: 12px 24px; margin-left: 20%;">
+              <a href=""><button type="button"  style="width: 100%; border-radius: 30px; font-size: 18px; padding: 12px 24px; margin-left: 20%;backgorund-color:black;">
                 Confirmar
               </button></a>
             </div>

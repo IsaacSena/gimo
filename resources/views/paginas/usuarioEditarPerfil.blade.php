@@ -105,7 +105,7 @@
             <div class="col-md-6">
               <h3 style="text-align: center;">Idade:</h3>
               <div class="form-floating mb-3">
-                <input type="number" class="form-control" id="idade" name="idade" placeholder="Idade"  style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;">
+                <input type="text" class="form-control" id="idade" name="idade" placeholder="Idade"  style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;">
                 <label for="idade">Idade</label>
               </div>
             </div>
@@ -122,22 +122,22 @@
             <!-- Select série/ano -->
             <div class="col-md-6">
               <h3 style="text-align: center;">Série/Ano:</h3>
-              <select class="form-select mb-3" name="serie" Disabled style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;">
+              <select class="form-select mb-3" name="serie" style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;">
                 <option selected>Escolha a Série</option>
-                <option value="1">1ª Série</option>
-                <option value="2">2ª Série</option>
-                <option value="3">3ª Série</option>
-                <option value="4">4ª Série</option>
-                <option value="5">5ª Série</option>
+                <option value="1ª Série">1ª Série</option>
+                <option value="2ª Série">2ª Série</option>
+                <option value="3ª Série">3ª Série</option>
+                <option value="4ª Série">4ª Série</option>
+                <option value="5ª Série">5ª Série</option>
               </select>
             </div>
 
             <!-- Botão Editar -->
             <div class="col-12 d-flex justify-content-center" style="transform: translate(319px, -72px);">
-  <button type="button" class="btn btn-danger" style="background-color: #E5CD59; width: 20%; border-radius: 30px; border-color: #E5CD59; font-size: 18px; padding: 12px 24px;">
-    Confirmar
-  </button>
-</div>
+              <button type="button" class="btn btn-danger" style="background-color: #E5CD59; width: 20%; border-radius: 30px; border-color: #E5CD59; font-size: 18px; padding: 12px 24px;">
+                Confirmar
+              </button>
+            </div>
 
 
           </div>

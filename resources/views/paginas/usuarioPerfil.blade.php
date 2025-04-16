@@ -69,7 +69,7 @@
             <div class="col-md-6">
               <h3 style="text-align: center;">Nome:</h3>
               <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu nome" Disabled style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;">
+                <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu nome" Disabled style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;" value="{{ $usuarios->nome }}">
                 <label for="nome">Nome</label>
               </div>
             </div>
@@ -78,7 +78,7 @@
             <div class="col-md-6">
               <h3 style="text-align: center;">Sobrenome:</h3>
               <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome" Disabled style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;">
+                <input type="text" class="form-control" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome" Disabled style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;"  value="{{ $usuarios->sobrenome }}">
                 <label for="sobrenome">Sobrenome</label>
               </div>
             </div>
@@ -87,7 +87,7 @@
             <div class="col-md-6">
               <h3 style="text-align: center;">E-mail:</h3>
               <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="email" name="email" placeholder="nome@exemplo.com" Disabled style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;">
+                <input type="email" class="form-control" id="email" name="email" placeholder="nome@exemplo.com" Disabled style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;" value="{{ $usuarios->email }}">
                 <label for="email">E-mail</label>
               </div>
             </div>
@@ -96,7 +96,7 @@
             <div class="col-md-6">
               <h3 style="text-align: center;">Senha:</h3>
               <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="senha" name="senha" placeholder="Senha" Disabled style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;">
+                <input type="text" class="form-control" id="senha" name="senha" placeholder="Senha" Disabled style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;" value="{{ $usuarios->senha }}">
                 <label for="senha">Senha</label>
               </div>
             </div>
@@ -105,7 +105,7 @@
             <div class="col-md-6">
               <h3 style="text-align: center;">Idade:</h3>
               <div class="form-floating mb-3">
-                <input type="number" class="form-control" id="idade" name="idade" placeholder="Idade" Disabled style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;">
+                <input type="text" class="form-control" id="idade" name="idade" placeholder="Idade" Disabled style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;"  value="{{ $usuarios->idade }} Anos">
                 <label for="idade">Idade</label>
               </div>
             </div>
@@ -114,31 +114,43 @@
             <div class="col-md-6">
               <h3 style="text-align: center;">Escola:</h3>
               <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="escola" name="escola" placeholder="Nome da escola" Disabled style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;">
+                <input type="text" class="form-control" id="escola" name="escola" placeholder="Nome da escola" Disabled style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;"  value="{{ $usuarios->escola }}">
                 <label for="escola">Escola</label>
               </div>
             </div>
 
             <!-- Select série/ano -->
             <div class="col-md-6">
-              <h3 style="text-align: center;">Série/Ano:</h3>
-              <select class="form-select mb-3" name="serie" Disabled style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;">
-                <option selected>Escolha a Série</option>
-                <option value="1">1ª Série</option>
-                <option value="2">2ª Série</option>
-                <option value="3">3ª Série</option>
-                <option value="4">4ª Série</option>
-                <option value="5">5ª Série</option>
+              <h3 style="text-align: center;">Perfil:</h3>
+              <select class="form-select mb-3" name="perfil" Disabled style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;">
+                <option selected>{{ $usuarios->perfil}}</option>
               </select>
             </div>
 
-            <!-- Botão Editar -->
-            <div class="col-12 d-flex justify-content-center" style="transform: translate(310px, -72px);">
-          <button type="button" class="btn btn-danger" style="background-color: #E5CD59; width: 20%; border-radius: 30px; border-color: #E5CD59; font-size: 18px; padding: 12px 24px;">
-            Editar
-          </button>
-</div>
+            <!-- Select série/ano -->
+            <div class="col-md-6">
+              <h3 style="text-align: center;">Série/Ano:</h3>
+              <select class="form-select mb-3" name="serie" Disabled style="border-style: solid; border-color: #000000; border-width: 2px; border-radius: 26px;">
+                <option selected>{{ $usuarios->serie }}</option>
+                <option value="1ª Série">1ª Série</option>
+                <option value="2ª Série">2ª Série</option>
+                <option value="3ª Série">3ª Série</option>
+                <option value="4ª Série">4ª Série</option>
+                <option value="5ª Série">5ª Série</option>
+              </select>
+            </div>
+            
+              <!-- Botão Editar -->
+            <div class="col-12 d-flex justify-content-center" style="transform: translate(300px, -0px);">
+              <a href="usuarioHome"><button type="button" class="btn btn-danger" style="width: 100%; border-radius: 30px; font-size: 18px; padding: 12px 24px; background-color: #E5CD59; border-color: #E5CD59;">
+                Voltar
+              </button></a>
+              <a href="usuarioEditarPerfil"><button type="button" class="btn btn-danger" style="width: 100%; border-radius: 30px; font-size: 18px; padding: 12px 24px; margin-left: 20%; background-color: #E5CD59; border-color: #E5CD59;">
+                Editar
+              </button></a>
+            </div>
 
+            
 
           </div>
         </div>

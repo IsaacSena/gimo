@@ -53,7 +53,7 @@
   <div class="row row-cols-1 row-cols-md-4 g-4">
   <div class="col">
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="{{URL::to('/assets/img/gisele.png')}}" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Gisele da Hora Silva</h5>
         <p class="card-text">•	18 anos;</p>
@@ -64,7 +64,7 @@
   </div>
   <div class="col">
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="{{URL::to('/assets/img/isaac.png')}}" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Isaac Sena Martins</h5>
         <p class="card-text">•	22 anos;</p>
@@ -75,7 +75,7 @@
   </div>
   <div class="col">
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="{{URL::to('/assets/img/mateus.png')}}" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Mateus Albuquerque Pavani</h5>
         <p class="card-text">•	20 anos;</p>
@@ -86,7 +86,7 @@
   </div>
   <div class="col">
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="{{URL::to('/assets/img/otavio.png')}}" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Otávio Fidalgo</h5>
         <p class="card-text">•	22 anos;</p>

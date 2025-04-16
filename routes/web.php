@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\admsController;
+use App\Http\Controllers\usuariosController;
 
 //Home
 Route::get('/', function () {
@@ -257,3 +259,23 @@ Route::get('numero10', function () {
     return view('paginas/Numeros.numero10');
 });
 
+
+
+//Funções Usuários
+
+Route::get('/usuarioscadastrar',[App\Http\Controllers\usuariosController::class, 'usuariosCadastrar'])->name('usuariosCadastrar');
+
+Route::get('/usuarioslogin', [App\Http\Controllers\usuariosController::class, 'usuariosLogin'])->name('usuariosLogin');
+Route::get('/usuarioperfil', [usuariosController::class, 'usuarioPerfil'])->name('usuarioPerfil');
+
+
+
+
+
+//Funções Adms
+
+Route::get('/admscadastrar',[App\Http\Controllers\admsController::class, 'admsCadastrar'])->name('admsCadastrar');
+
+Route::get('/admslogin',[App\Http\Controllers\admsController::class, 'admsLogin'])->name('admsLogin');
+
+Route::get('/admsperfil', [admsController::class, 'admsPerfil'])->name('admsPerfil');

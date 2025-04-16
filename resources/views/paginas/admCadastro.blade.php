@@ -25,8 +25,17 @@
 
 <div class="card" style="width: 50%; border-color: #BDBDBD; border-width: 2px; margin: auto; border-radius: 30px; text-align: center;">
   <div class="card-body">
-
-    <form action="/admLogin" method="GET"> {{-- Altere a rota se necessário --}}
+  @if (session('success'))
+    <div class="alert alert-success" role="alert">
+        {{ session('success') }}
+    </div>
+    @endif
+    @if (session('failed'))
+    <div class="alert alert-danger" role="alert">
+        {{ session('failed') }}
+    </div>
+    @endif
+    <form action="/admscadastrar" method="GET"> 
     
       <!-- Input Nome -->  
       <h3 style="text-align: center;">Nome:</h3>
@@ -35,7 +44,7 @@
         <label for="nome">Nome</label>
       </div>
       <br>
-
+      
       <!-- Input Sobrenome -->
       <h3 style="text-align: center;">Sobrenome:</h3>
       <div class="form-floating mb-3">
@@ -78,8 +87,8 @@
     <div style="float: left;">
       <a href="admHome"><button type="submit" class="btn btn-primary" style="background-color: white; color: #000000; border-color: #000000; border-radius: 30px; border-width: 2px; font-weight: bold; font-size: 18px; margin: auto; width: 100%;">Voltar</button></a>
     </div>
-
   </div>
+
 </div> 
 <br><br>
 
